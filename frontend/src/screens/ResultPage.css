@@ -1,0 +1,38 @@
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 16px 0px 16px;
+    width: 60vw;
+}
+
+.result-loading-spinner {
+    margin: 24px;
+}
+
+.result-list-item {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.item-badge {
+    margin-left: 6px;
+}
+
+.share-button {
+    margin-top: 12px;
+}
+
+.result-alert {
+    margin: 16px;
+    width: inherit;
+}
